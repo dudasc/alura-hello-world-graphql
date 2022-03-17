@@ -5,11 +5,10 @@ Hello Wold with GraphQL and Apollo Server
 ```
 npm install
 ```
-### Project Run
+### Project Run and hot-reload
 ```
-node index.js
+npm run dev
 ```
 
 ### Project View
 Open File index.html
-
