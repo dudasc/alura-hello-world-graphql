@@ -1,6 +1,6 @@
 
-const express = require("express");
-const { ApolloServer, gql } = require("apollo-server-express");
+import express from "express";
+import { ApolloServer, gql } from "apollo-server-express";
 
 const schema = gql(`
     type Query {
@@ -14,7 +14,7 @@ const resolvers = {
     }
 }
 
-const server = new ApolloServer({ typeDefs: schema, resolvers });
+const server: ApolloServer = new ApolloServer({ typeDefs: schema, resolvers });
 
 const app = express();
 
