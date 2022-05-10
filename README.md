@@ -1,11 +1,11 @@
 # alura-hello-world-graphql
-Hello Wold with GraphQL and Apollo Server
+Hello World with GraphQL and Apollo Server
 
 ## Project setup
 ```
 npm install
 ```
-### Project Run and hot-reload
+### Running and hot-reload
 ```
 npm run dev
 ```
